@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report 
+            id="report_purchaseorder_document_main" 
+            model="purchase.order" 
+            report_type="qweb-pdf"
+            string="Pedido de compra SIN Precios" 
+            name="custom_reports_amaspine.report_purchaseorder_document_main" 
+            file="custom_reports_amaspine.report_purchaseorder_document_main"
+        />
+    </data>
+</odoo>
+<!--
+    print_report_name="(object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or
+    'Purchase Order - %s' % (object.name))" -->
+<!-- 
+    <report 
+        string="Purchase Order" 
+        id="action_report_purchase_order" 
+        model="purchase.order" 
+        report_type="qweb-pdf"
+        name="purchase.report_purchaseorder" 
+        file="purchase.report_purchaseorder"
+        print_report_name="
+            (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or
+            'Purchase Order - %s' % (object.name))"
+    />
+-->
