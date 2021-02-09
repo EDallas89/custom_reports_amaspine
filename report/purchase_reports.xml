@@ -2,15 +2,15 @@
 <odoo>
     <data>
         <report 
-            id="report_purchaseorder_document_main" 
+            id="report_purchaseorder_document_sin_precios_amaspine" 
             model="purchase.order" 
             report_type="qweb-pdf"
             string="Pedido de compra SIN Precios" 
-            name="custom_reports_amaspine.report_purchaseorder_document_main" 
-            file="custom_reports_amaspine.report_purchaseorder_document_main"
+            name="custom_reports_amaspine.report_purchaseorder_document_sin_precios_amaspine" 
+            file="custom_reports_amaspine.report_purchaseorder_document_sin_precios_amaspine"
             print_report_name="
-            (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or
-            'Purchase Order - %s' % (object.name))"
+            (object.state in ('draft', 'sent') and 'Solicitud de presupuesto - %s' % (object.name) or
+            'Pedido de compra - %s' % (object.name))"
         />
     </data>
 </odoo>

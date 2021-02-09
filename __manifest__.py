@@ -10,6 +10,6 @@
     'depends': ['purchase'],
     'data': [
         'report/purchase_reports.xml',
-        'report/purchaseorder_document_main.xml',
+        'report/report_purchaseorder_document_sin_precios_amaspine.xml',
     ],
 }
