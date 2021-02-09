@@ -7,9 +7,10 @@
     'website': "https://www.aresoltec.com",
     'category': 'Reports',
     'version': '0.1',
-    'depends': ['purchase'],
+    'depends': ['purchase', 'sale'],
     'data': [
         'report/purchase_reports.xml',
         'report/report_purchaseorder_document_sin_precios_amaspine.xml',
+        'report/report_invoice_document_con_firma_amaspine.xml',
     ],
 }
